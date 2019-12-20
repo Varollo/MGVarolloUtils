@@ -43,8 +43,14 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Graphics\SpriteSheetAnimation.cs" />
     <Compile Include="Input.cs" />
+    <Compile Include="Math\MathEx.cs" />
+    <Compile Include="Math\MathTweener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transform.cs" />
+    <Compile Include="UI\Text.cs" />
+    <Compile Include="UI\TextEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
